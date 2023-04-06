@@ -1,0 +1,166 @@
+ nav ul{
+	list-style-type: none;
+	display: inline-block;
+
+}
+nav li{
+	float: flex;
+	display: inline-block;
+}
+a{
+    text-decoration: none;
+    padding: 3px;
+    justify-content: space-between;
+    color: black;
+}
+nav{
+    float:flex;
+    display:inline-block;
+    justify-content: space-between;
+    flex:9px;
+    margin-left: 55px;
+    
+   
+
+}
+.bar{
+    position:fixed;
+    
+    
+   
+}
+.img{
+    margin-right: 35em;
+    margin-left: 90px;
+    
+    
+}
+.panier{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.acceuimage{
+    float:right;
+    margin-top: 80px;
+    margin-right: 85px;
+
+}
+
+h3{
+    color: #a26b1c;
+    padding-left: 250px;
+    padding-top: 200px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+h6{
+    font-size: 15px;
+    text-align: center;
+}
+h2{
+    padding-left: 250px;
+    font-size: 35px;
+    
+}
+button{
+    background-color: #a26b1c;
+    border-radius: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 10px 20px ;
+    margin-left: 250px;
+}
+#apropos{
+    margin-top: 150px;
+    font-size: 55px;
+
+}
+#apropos p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: light;
+}
+#apropos h3{
+    text-align: center;
+    font-size:56px ;
+    padding-right: 100px;
+    
+}
+
+#produit h3{
+    color: #a26b1c;
+    text-align: center;
+    font-size:56px ;
+    padding-right: 100px;
+}
+.produit{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+    margin-left: 100px;
+}
+.image{
+    
+    text-align: center;
+}
+.product{
+    border: #a26b1c 8px solid;
+    width: 300px;
+    height: 200px;
+}
+
+
+#contact {
+    background-color:none;
+    padding: 40px;
+    text-align: center;
+    height: 500px;
+    margin-top: 50px;
+  }
+
+  #contact h2 {
+    font-size: 36px;
+    color: #a26b1c;
+  }
+
+form {
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+  }
+form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color:#a26b1c;
+    margin-left: 150px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    border: 5px solid #a26b1c;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+    align: center;
+    margin-left: 150px;
+    border-radius: 5px;
+  }
+
+  #contact form textarea {
+    height: 120px;
+  }
+  form button[type="submit"] {
+    margin-bottom: 50px;
+    
+
+    }
+
+footer{
+    margin-top:150px;
+    text-align: center;
+    background-color : #a26b1c;
+    color: aliceblue;
+}
